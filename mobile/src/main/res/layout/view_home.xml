@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:showIn="@layout/activity_home">
+
+    <include layout="@layout/view_toolbar"/>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/FrameLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <fragment
+            android:id="@+id/entries_list_fragment"
+            android:name="ga.ai.mobile.fragment.EntriesListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_entry_list" />
+
+        <fragment
+            android:id="@+id/poputchiki_fragment"
+            android:name="ga.ai.mobile.fragment.PoputchikiFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_entry_list" />
+
+        <fragment
+            android:id="@+id/weather_fragment"
+            android:name="ga.ai.mobile.fragment.WeatherFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_weather"
+            android:visibility="gone" />
+
+        <fragment
+            android:id="@+id/classified_fragment"
+            android:name="ga.ai.mobile.fragment.ClassifiedFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_classified"
+            android:visibility="gone" />
+
+        <fragment
+            android:id="@+id/yellow_pages_fragment"
+            android:name="ga.ai.mobile.fragment.YellowPagesFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_yellow_pages"
+            android:visibility="gone" />
+
+        <fragment
+            android:id="@+id/webcam_fragment"
+            android:name="ga.ai.mobile.fragment.WebcamFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_webcam"
+            android:visibility="gone" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+  </head>
+  <body>
+<style>
+	select {	
+		border-radius: 0;
+		background: rgba(0, 0, 255, 0.1);
+		height: 30px;
+		padding: 2px;
+		//border: 0;
+		font-size: 16px;
+		line-height: 1;
+		-webkit-appearance: none;
+		width: 100%;
+		border-color: rgba(128, 128, 128, 0.33);
+		background: rgba(128, 128, 128, 0.33) url(select-arrow-open.png) 98% center no-repeat;
+	}
+	select option {
+		background-color: #e9e9f9;
+	}
+</style>		
+    <form name="ClassifiedForm" action="list.php" method="get" target="list">
+    <input name="option" value="com_jclassifieds" type="hidden" /> 
+    <input name="template" value="raw_component" type="hidden" /> 
+    <input name="embedded" value="1" type="hidden" /> 
+    <select name="idc" width="100%" id="idc" onchange="document.ClassifiedForm.submit();">
+      <option value="0" selected="selected">Все категории</option>
+      <option value="1">Недвижимость</option>
+      <option value="2">Недвижимость&gt;&gt;Продам</option>
+      <option value="3">Недвижимость&gt;&gt;Продам&gt;&gt;Квартиру</option>
+      <option value="4">Недвижимость&gt;&gt;Продам&gt;&gt;1-комн. благ. кв-ру</option>
+      <option value="5">Недвижимость&gt;&gt;Продам&gt;&gt;2-комн. благ. кв-ру</option>
+      <option value="6">Недвижимость&gt;&gt;Продам&gt;&gt;3-комн. благ. кв-ру</option>
+      <option value="7">Недвижимость&gt;&gt;Продам&gt;&gt;4-комн. благ. кв-ру</option>
+      <option value="8">Недвижимость&gt;&gt;Продам&gt;&gt;Недостроенный дом</option>
+      <option value="9">Недвижимость&gt;&gt;Продам&gt;&gt;Часть дома</option>
+      <option value="10">Недвижимость&gt;&gt;Продам&gt;&gt;Дом</option>
+      <option value="11">Недвижимость&gt;&gt;Продам&gt;&gt;Земельный участок</option>
+      <option value="12">Недвижимость&gt;&gt;Продам&gt;&gt;Сад</option>
+      <option value="13">Недвижимость&gt;&gt;Продам&gt;&gt;Гараж</option>
+      <option value="14">Недвижимость&gt;&gt;Меняю</option>
+      <option value="15">Недвижимость&gt;&gt;Меняю&gt;&gt;1-комн. благ. кв-ру</option>
+      <option value="16">Недвижимость&gt;&gt;Меняю&gt;&gt;2-комн. благ. кв-ру</option>
+      <option value="17">Недвижимость&gt;&gt;Меняю&gt;&gt;3-комн. благ. кв-ру</option>
+      <option value="18">Недвижимость&gt;&gt;Меняю&gt;&gt;4-комн. благ. кв-ру</option>
+      <option value="19">Недвижимость&gt;&gt;Меняю&gt;&gt;Часть дома</option>
+      <option value="20">Недвижимость&gt;&gt;Меняю&gt;&gt;Дом</option>
+      <option value="21">Недвижимость&gt;&gt;Меняю&gt;&gt;Земельный участок</option>
+      <option value="53">Недвижимость&gt;&gt;Меняю&gt;&gt;Недостроенный дом</option>
+      <option value="54">Недвижимость&gt;&gt;Меняю&gt;&gt;Сад</option>
+      <option value="22">Недвижимость&gt;&gt;Меняю&gt;&gt;Гараж</option>
+      <option value="23">Недвижимость&gt;&gt;Куплю</option>
+      <option value="24">Недвижимость&gt;&gt;Сдаю</option>
+      <option value="25">Недвижимость&gt;&gt;Сниму</option>
+      <option value="26">Транспорт/Запчасти</option>
+      <option value="27">Транспорт/Запчасти&gt;&gt;Продам</option>
+      <option value="28">Транспорт/Запчасти&gt;&gt;Продам&gt;&gt;Иномарки</option>
+      <option value="29">Транспорт/Запчасти&gt;&gt;Продам&gt;&gt;ВАЗ</option>
+      <option value="30">Транспорт/Запчасти&gt;&gt;Продам&gt;&gt;Прочие</option>
+      <option value="31">Транспорт/Запчасти&gt;&gt;Продам&gt;&gt;Запчасти</option>
+      <option value="32">Транспорт/Запчасти&gt;&gt;Меняю</option>
+      <option value="33">Транспорт/Запчасти&gt;&gt;Куплю</option>
+      <option value="34">Работа</option>
+      <option value="35">Работа&gt;&gt;Требуется</option>
+      <option value="36">Работа&gt;&gt;Ищу работу</option>
+      <option value="37">Работа&gt;&gt;Сетевой маркетинг</option>
+      <option value="38">Услуги</option>
+      <option value="39">Потери/Находки</option>
+      <option value="40">Знакомства</option>
+      <option value="41">Компьютеры/Комплектующие</option>
+      <option value="42">Разное</option>
+      <option value="43">Прочие</option>
+      <option value="44">Прочие&gt;&gt;Продам</option>
+      <option value="45">Прочие&gt;&gt;Продам&gt;&gt;Предметы быта</option>
+      <option value="46">Прочие&gt;&gt;Продам&gt;&gt;Теле/Видео</option>
+      <option value="47">Прочие&gt;&gt;Продам&gt;&gt;Мебель</option>
+      <option value="48">Прочие&gt;&gt;Продам&gt;&gt;Одежда и обувь</option>
+      <option value="49">Прочие&gt;&gt;Продам&gt;&gt;Стройматериалы</option>
+      <option value="50">Прочие&gt;&gt;Продам&gt;&gt;Живность</option>
+      <option value="51">Прочие&gt;&gt;Меняю</option>
+      <option value="52">Прочие&gt;&gt;Куплю</option>
+    </select></form>
+  </body>
+</html>

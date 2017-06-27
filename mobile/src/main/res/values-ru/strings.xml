@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ Copyright (c) 2010-2012 Stefan Handschuh
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+
+    <!-- GENERAL -->
+    <string name="app_name">Алтай-Инфо</string>
+    <string name="about_altai_info">О проекте \"Алтай-Инфо\" / Обновление</string>
+    <string name="welcome_title">Добро пожаловать</string>
+    <string name="never">никогда</string>
+    <string name="update">Обновление</string>
+    <string name="colon">:\u00A0</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_refresh">Обновить</string>
+    <string name="menu_all_read">Пометить все как прочтённые</string>
+    <string name="menu_show_new_entries">Показать новые записи</string>
+    <string name="altai_info_feeds">Алтай-Инфо ленты</string>
+    <string name="error">Ошибка</string>
+    <string name="network_error">Нет подключения к сети</string>
+    <string name="loading">Загрузка…</string>
+    <string name="no_result">Нет результатов</string>
+    <string name="drawer_open">Открыть меню навигации</string>
+    <string name="drawer_close">Закрыть меню навигации</string>
+    <string name="back_again_to_quit">Нажмите "Назад" еще раз, чтобы выйти</string>
+    <string name="no_new_entries">Нет новых записей</string>
+
+    <!-- FEEDS -->
+    <string name="feeds">Ленты</string>
+    <string name="menu_add_feed">Добавить ленту</string>
+    <string name="no_feeds">Нет лент</string>
+    <string name="no_filters">Нет фильтров</string>
+    <string name="context_menu_delete">Удалить</string>
+    <string name="edit_feed_title">Редактировать ленту</string>
+    <string name="new_feed_title">Новая лента</string>
+    <string name="context_menu_edit">Редактировать</string>
+    <string name="menu_add_group">Добавить группу</string>
+    <string name="menu_import">Импорт из OPML-файла</string>
+    <string name="menu_export">Экспорт в OPML-файл</string>
+    <string name="error_feed_error">Сайт ленты недоступен.</string>
+    <string name="error_feed_process">Лента не может быть добавлена.</string>
+    <string name="error_feed_url_exists">Такой адрес уже есть</string>
+    <string name="error_feed_import">Не удалось импортировать выбранный файл.</string>
+    <string name="error_feed_export">Экспорт не удался. Удостоверьтесь, что подключена карта памяти с возможностью записи.</string>
+    <string name="error_external_storage_not_available">Внешнее хранилище (например карта памяти) недоступно.</string>
+    <string name="feed_url">URL</string>
+    <string name="optional">(не обязательно)</string>
+    <string name="website_or_feed">(сайта или ленты новостей)</string>
+    <string name="tab_feed_title">Ленту</string>
+    <string name="tab_filters_title">Фильтры</string>
+    <string name="feed_title">Название</string>
+    <string name="feed_filters">Фильтры исключений</string>
+    <string name="filter_add_title">Добавить фильтр</string>
+    <string name="filter_delete_title">Удалить фильтр</string>
+    <string name="filter_edit_title">Редактировать фильтр</string>
+    <string name="filter_is_regex">это регулярное выражение</string>
+    <string name="filter_apply_to_title">Применить к заголовкам</string>
+    <string name="filter_apply_to_content">Применить к содержанию</string>
+    <string name="accept">ПРИНЯТЬ</string>
+    <string name="reject">ОТКЛОНИТЬ</string>
+    <string name="feed_search">Поиск лент</string>
+    <string name="select_file">Выбрать файл (корень SD-карты)</string>
+    <string name="question_delete_feed">Вы действительно хотите удалить эту ленту?</string>
+    <string name="question_delete_group">"Вы действительно хотите удалить эту группу и все ее ленты? "</string>
+    <string name="question_delete_filter">Вы действительно хотите удалить этот фильтр?</string>
+    <string name="add_group_title">Выберите название группы</string>
+    <string name="edit_group_title">Редактировать название группы</string>
+    <string name="message_exported_to">Экспортировано в %s.</string>
+    <string name="to_group_title">Перенос ленты</string>
+    <string name="to_group_message">Можно поместить ленту внутрь этой группы или сверху от неё. Что вы хотите сделать?</string>
+    <string name="to_group_above">Над группой</string>
+    <string name="to_group_into">Внутрь группы</string>
+    <string name="add_custom_feed">Добавить или найти ленту</string>
+    <string name="google_news_title">Рубрики Новостей Google</string>
+    <string name="google_news_indicator">Выберите одну или несколько рубрик. Некоторые из них могут не быть доступны на вашем языке.</string>
+    <string name="google_news_top_stories">Рекомендовано</string>
+    <string name="google_news_world">В мире</string>
+    <string name="google_news_business">Бизнес</string>
+    <string name="google_news_technology">Наука и техника</string>
+    <string name="google_news_entertainment">Культура</string>
+    <string name="google_news_sports">Спорт</string>
+    <string name="google_news_science">Наука</string>
+    <string name="google_news_health">Здоровье</string>
+
+    <!-- ENTRIES -->
+    <string name="all">Все новости</string>
+    <string name="no_entries">Нет новостей</string>
+    <string name="favorites">Избранное</string>
+    <string name="context_menu_hide_read">Скрыть прочитанные новости</string>
+    <string name="context_menu_show_read">Показать прочитанные новости</string>
+    <string name="context_menu_share_starred">Поделиться избранными новостями</string>
+    <string name="menu_star">Поместить в избранное</string>
+    <string name="menu_unstar">Убрать из избранного</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_full_screen">Полный экран</string>
+    <string name="menu_copy_clipboard">Скопировать ссылку</string>
+    <string name="menu_mark_as_unread">Пометить как непрочитанное</string>
+    <string name="share_favorites_title">Алтай-Инфо: избранные новости</string>
+    <string name="copied_clipboard">Ссылка скопирована</string>
+    <string name="get_full_text">Загрузить весь текст</string>
+    <string name="original_text">Показать оригинальный текст</string>
+    <string name="see_enclosure">Показать вложение</string>
+    <string name="see_link">Открыть в браузере</string>
+    <string name="cant_open_link">Нет приложения, чтобы открыть ссылку</string>
+    <string name="open_enclosure">Открыть вложение</string>
+    <string name="file">Файл</string>
+    <string name="download_and_save">Загрузить и сохранить</string>
+    <string name="open_link">Открыть ссылку</string>
+    <string name="tip_sentence">Совет: проведите пальцем влево, чтобы отметить как прочитанное, или вправо, чтобы добавить в избранное</string>
+
+    <!-- WIDGET -->
+    <string name="red">Красный</string>
+    <string name="green">Зеленый</string>
+    <string name="blue">Синий</string>
+    <string name="transparency">Прозрачный</string>
+
+    <!-- SETTINGS -->
+    <string name="settings_category_refresh">Автоматическое обновление</string>
+    <string name="settings_refresh_enabled">Включить автоматическое обновление</string>
+    <string name="settings_refresh_enabled_description">Включить автоматическое обновление лент</string>
+    <string name="settings_refresh_interval">Интервал обновления</string>
+    <string name="settings_category_notifications">Уведомления</string>
+    <string name="settings_notifications_enabled">Включить уведомления</string>
+    <string name="settings_notifications_enabled_description">Включить уведомления о новых записях</string>
+    <string name="settings_notifications_ringtone">Звук</string>
+    <string name="settings_notifications_ringtone_none">Нет</string>
+    <string name="settings_notifications_vibrate">Вибрация</string>
+    <string name="settings_notifications_vibrate_description">Включить вибрацию, если есть новые записи</string>
+    <string name="settings_notifications_light">Свет</string>
+    <string name="settings_notifications_light_description">Включить световое оповещение о новых записях</string>
+    <string name="settings_category_content_presentation">Представление содержания</string>
+    <string name="settings_light_theme">Светлая тема</string>
+    <string name="settings_light_theme_description">Использовать светлую тему</string>
+    <string name="settings_keep_time">Время хранения новостей</string>
+    <string name="settings_display_images">Показывать изображения</string>
+    <string name="settings_display_images_description">Показывать иллюстрации в новостях</string>
+    <string name="settings_preload_image_mode">Предварительная загрузка изображений</string>
+    <string name="settings_font_size">Размер текста</string>
+    <string name="settings_display_oldest_first">Порядок новостей</string>
+    <string name="settings_display_oldest_first_description">Показывать старые в начале</string>
+    <string name="settings_display_entries_fullscreen">Полноэкранный режим</string>
+    <string name="settings_display_entries_fullscreen_description">Автоматически открывать новости на весь экран</string>
+    <string name="settings_refresh_on_open">Обновлять при запуске</string>
+    <string name="settings_refresh_on_open_description">Обновлять все ленты пии запуске приложения</string>
+    <string name="settings_refresh_wifi_only">Обновлять только по WiFi</string>
+    <string name="settings_refresh_wifi_only_description">Автоматическое обновление будет выполняться только при включённом WiFi</string>
+    <string name="settings_visible_feeds">Видимые ленты</string>
+    <string name="settings_widget_background">Фон</string>
+    <string name="settings_widget_background_description">Цвет и прозрачность фона виджета</string>
+    <string name="all_feeds">Все ленты (включая будущие)</string>
+    <string name="settings_screen_proxy">Прокси-сервер</string>
+    <string name="settings_category_network">Сеть</string>
+    <string name="settings_proxy_enabled">Включено</string>
+    <string name="settings_proxy_wifi_only">Только WiFi</string>
+    <string name="settings_proxy_wifi_only_description">Использовать прокси-сервер только для WiFi
+    </string>
+    <string name="settings_proxy_host">Адрес сервера</string>
+    <string name="settings_proxy_port">Порт</string>
+    <string name="settings_proxy_type">Тип соединения</string>
+
+    <plurals name="number_of_new_entries">
+	<item quantity="one">Одна новая запись</item>
+	<item quantity="few">%d новых записи</item>
+	<item quantity="many">%d новых записей</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string-array name="settings_intervals">
+        <item>1 минута</item>
+        <item>5 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>6 часов</item>
+        <item>12 часов</item>
+        <item>1 день</item>
+    </string-array>
+    <string-array name="settings_keep_times">
+        <item>1 день</item>
+        <item>2 дня</item>
+        <item>4 дня</item>
+        <item>1 неделя</item>
+        <item>2 недели</item>
+        <item>1 месяц</item>
+        <item>2 месяца</item>
+        <item>3 месяца</item>
+        <item>Не удалять</item>
+    </string-array>
+    <string-array name="settings_keep_times_per_feed">
+        <item>1 день</item>
+        <item>2 дня</item>
+        <item>4 дня</item>
+        <item>1 неделя</item>
+        <item>2 недели</item>
+        <item>1 месяц</item>
+        <item>2 месяца</item>
+        <item>3 месяца</item>
+        <item>По умолчанию</item>
+    </string-array>
+    <string-array name="settings_font_sizes">
+        <item>-2</item>
+        <item>-1</item>
+        <item>Стандартно</item>
+        <item>+1</item>
+        <item>+2</item>
+        <item>+3</item>
+        <item>+4</item>
+        <item>+5</item>
+    </string-array>
+    <string-array name="settings_preload_image_modes">
+        <item>Никогда</item>
+        <item>Только по Wi-Fi</item>
+        <item>Всегда</item>
+    </string-array>
+
+    <string name="feed_cookie">Cookie для аутентификации</string>
+    <string name="cookiename">Имя</string>
+    <string name="cookievalue">Значение</string>
+    <string name="feed_httpAuth">HTTP-аутентификация</string>
+    <string name="loginhttpAuth">Имя пользователя</string>
+    <string name="passwordhttpAuth">Пароль</string>
+    <string name="settings_left_panel">Меню навигации</string>
+    <string name="settings_left_panel_description">Показывать меню навигации при запуске приложения</string>
+    <string name="settings_font_serif">Шрифт с засечками</string>
+    <string name="settings_font_serif_description">Использовать шрифт с засечками для отображения новостей</string>
+    <string name="settings_mark_as_read">Показывать кнопку «Отметить все как прочтённые»</string>
+    <string name="settings_mark_as_read_description">Показывать кнопку «Отметить все как прочтённые» (\"галочка\" в правом верхнем углу)</string>
+    <string name="settings_show_new_entries">Автоматически показывать новые записи</string>
+    <string name="settings_show_new_entries_description">Если отключено, для показа новых записей потребуется нажать «Показать новые записи»</string>
+    <string name="menu_open_in_browser">Открыть в браузере</string>
+    <string name="menu_switch_full_original">Показать всё содержимое</string>
+    <string name="filter_help">Помощь по фильтрам</string>
+    <string name="tab_advanced_title">Дополнительно</string>
+    <string name="storage_request_explanation">Чтобы получить возможность импорта лент из файла или экспорта их в файл, надо разрешить приложению доступ к хранилищу.</string>
+    <string name="google_news_custom_topic">Ввести рубрику вручную</string>
+
+    <string name="feed_no_summary">&lt; Нет описания &gt;</string>
+    <string name="about_us_content"><![CDATA[     Сайт : http://www.altai-info.ga <br /><br />     	Алтай-Инфо - мобильное приложение по новостям и событиям в Республике Алтай.     ]]></string>
+    <string name="welcome_message">"         Спасибо, что установили новостной информер \"Алтай-Инфо\".\n         Это первое мобильное информационное приложение, предназначенное для жителей и гостей Республики Алтай.\n         Для знакомства с программой выберите какую-нибудь ленту (например, \"Листок\") и нажмите кнопку обновить (закругленная стрелочка).\n         В настройках (\"шестеренка\") Вы можете включить автообновление, указать его периодичность и многое другое.\""</string>
+    <string name="about_us_copyright">Copyright 2016-2017 Алтай-Инфо</string>
+    <string name="sendToFriendMsg">Поделитесь ссылкой на данное приложение, чтобы Ваши друзья тоже могли его установить. Послать ссылку можно по СМС, email или любым другим способом, возможным на Вашем устройстве.</string>
+    <string name="sendToFriendOkBtn">Поделиться</string>
+    <string name="sendToFriendCancelBtn">Отмена</string>
+    <string name="sendToFriendTxt">Новости Алтая на смартфоне:\nhttps://play.google.com/store/apps/details?id=ga.ai.mobile</string>
+    <string name="sendToFriendSbj">Мобильное приложение Алтай-Инфо</string>
+    <string name="sendToFriendChooseMethod">Выберите способ</string>
+    <string name="helpMsgTitle">Справка по работе с \n\"Алтай-Инфо\"</string>
+    <string name="postAd">"Подать объявление"</string>
+    <string name="action_settings">Настройки</string>
+    <string name="classifiedButtonText">Объявления</string>
+    <string name="new_version">Новая версия!</string>
+    <string name="later">Пока не надо</string>
+    <string name="get_new_version">Обновиться</string>
+    <string name="go_to_play_market">Проверить обновление Алтай-Инфо \nв Play Маркет</string>
+    <string name="set_weather_spot">Установить</string>
+    <string name="choose_weather_spot">Выберите районный центр. В дальнейшем по умолчанию прогноз погоды будет показываться по нему.</string>
+</resources>

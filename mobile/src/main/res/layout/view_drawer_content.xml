@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:showIn="@layout/view_left_drawer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:padding="5dp">
+
+        <ImageButton
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickEditFeeds"
+            android:src="@drawable/ic_edit"/>
+
+        <ImageButton
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickSendToFriend"
+            android:src="@drawable/ic_send_to_friend"/>
+
+        <ImageButton
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickSearch"
+            android:src="@drawable/ic_search"/>
+
+        <ImageButton
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickSettings"
+            android:src="@drawable/ic_settings"/>
+
+        <ImageButton
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickHelp"
+            android:src="@drawable/ic_menu_help"/>
+
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/simpleExpandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#484848"
+        android:childDivider="#9c9c9c"
+        android:dividerHeight="1dp"
+        android:choiceMode="singleChoice"
+        android:fastScrollEnabled="true"
+        android:background="@color/light_background" />
+
+</LinearLayout>

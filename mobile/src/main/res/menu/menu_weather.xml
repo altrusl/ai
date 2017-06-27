@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ga.ai.mobile.activity.ClassifiedActivity">
+
+    <group
+        android:id="@+id/weather_group"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+
+        <item
+            android:id="@+id/menu_weather_refresh"
+            android:icon="@drawable/ic_refresh"
+            android:title="@string/menu_refresh"
+            app:showAsAction="always"
+            tools:ignore="AlwaysShowAction" />
+
+        <item
+            android:id="@+id/menu_weather_settings"
+            android:icon="@drawable/ic_settings"
+            android:orderInCategory="101"
+            android:title="@string/action_settings"
+            app:showAsAction="always" />
+
+    </group>
+
+</menu>

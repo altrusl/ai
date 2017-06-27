@@ -1,0 +1,48 @@
+/* JComments common styles */
+#jc {clear: both;}
+#jc a:link, #jc a:visited, #jc a:hover {outline: none}
+
+/* Comment */
+#comments .comment-box {margin: 0;padding: 0; color: #999}
+
+
+#comments .comment-author, #comments .author-homepage, #comments .author-email {color: #666;font: bold 0.9em Verdana, Arial, Sans-Serif;margin: 0;padding: 0}
+
+/* Date and Time*/
+#comments .comment-date {font-size: 10px;color: #999;margin: 0;padding: 0 0 0 12px;background: url(images/jc_date.gif) no-repeat center left}
+#comments .comment-body {color: #777;margin: 6px 0 0;padding:0 0 2px}
+
+/* Quote, Code and Hidden block styles */
+#comments .quote, #comments blockquote, #comments .code, #comments code, #comments pre {margin: 5px 0 5px 10px; display: block; clear: both; background-image: none}
+#comments blockquote, #comments .hidden, #comments code, #comments pre {color: #849B9F;text-align: left;padding: 8px;margin-bottom: 8px}
+#comments blockquote, #comments .hidden {border: 1px dashed #849B9F}
+#comments code, #comments pre {border: 1px solid #dedede;overflow: hidden;white-space:normal}
+#comments .code {background: none; border: none; padding:0}
+#comments .quote {color: #777}
+#comments .hidden {clear: both;display: block;margin: 5px 0}
+
+#comments p {font: normal 1em Verdana, Arial, Sans-Serif;margin: 5px 5px 5px 0;	padding: 0; text-decoration: none; text-transform: none; text-indent: 0}
+
+#comments .comment-body img {padding: 0; border: 0 none}
+#comments .comment-body .img {padding: 4px 0 !important; max-width: 500px}
+
+/* Comments list */
+#comments .comments-list {margin-left: 2px;height: 1%}
+#comments .even, #comments .odd {background-image: none;background-color: transparent;color: #3c452d;border: none; margin-left: 0;margin-bottom: 10px;padding: 0}
+
+#comments-list .comments-inline-edit {padding: 5px; margin: 5px 0; color: inherit;background-color: #fff;border: 1px solid #ccc}
+
+
+/* Vote */
+#jc span.comments-vote {width: 6em;height: 15px;float: right}
+#jc span.comments-vote .busy{margin: 0; float: right; width: 16px}
+#jc .vote-good{background-position: 0 0}
+#jc .vote-poor, #jc a.vote-poor:hover{background-position: -15px 0}
+#jc span.vote-good,#jc span.vote-poor,#jc span.vote-none{margin: 0;float: right;font: bold 1em Verdana, Arial, Sans-Serif;line-height: 14px}
+#jc span.vote-good{color: #339900}
+#jc span.vote-poor{color: #CC0000}
+#jc span.vote-none{color: #A9A9A9}
+
+/* Rounded comments */
+#jc .rbox {margin: 0;padding: 4px 8px;width:auto;line-height: 100%;overflow: hidden;background-color:#fff;border: 1px solid #ccc;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius: 3px;}
+#jc .rbox div {text-align: left;margin: 0;line-height: normal;}

@@ -1,0 +1,103 @@
+<?php
+header("Content-Type: text/html; charset=utf-8");
+$q = $_POST['query'];
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=0.5,maximum-scale=4.0,minimal-ui" />
+  <title>Поиск</title>
+</head>
+<body>
+<form class="search_form" method="post" action="http://altai-info.ga/yellow-pages/index.php" name="search">
+<div class="title">Введите ключевые слова из названия организации, географического пункта:</div>
+<input name="query" value="">
+<button value="Send" name="send">Искать</button><br>
+</form>
+
+<style>
+
+
+.search_form {
+	text-align: center;
+}
+
+.search_form input {
+	margin-right: 5px;
+}
+
+.title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+	font-size: 1em;
+}
+
+.result_line {
+	text-align: center;
+	color: gray;
+	margin-bottom: 3px;
+	margin-top: 8px;
+	float: right;
+	font-size: 0.8em;
+	width: 100%;
+}
+
+.miniCard {
+    word-wrap: break-word;
+    font: 1em Helvetica,Arial,sans-serif;
+	color: #222;
+    overflow: hidden;
+    //margin: 0 0 1px;
+    padding: 12px 15px 4px 15px;
+    background: #fcfcfc;
+    box-shadow: 0 0 0 1px #e3e3e3;
+	width: 97%;
+}
+
+
+.miniCard__headerTitle {
+    display: inline;
+    margin: 0;
+    font-size: 1.1em;
+    color: #4d4dda;
+}
+
+.miniCard__address {
+	//margin-bottom: 1px;
+	overflow: hidden;
+	font-size: 0.8em;
+    padding: 4px;
+	color: #444;
+}
+
+.miniCard__phone {
+    margin-bottom: 10px;
+	overflow: hidden;
+	font-size: 1.2em;
+	cursor: cell;
+}
+
+.hide {
+    display: none; 
+}
+.hide + label + div + div{
+    display: none;
+}
+label {
+	cursor: pointer;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div + div{
+    display: block; 
+    background: #f7f7f7;
+    padding: 5px;
+	color: #777;	
+	font-size: 0.8em;
+}
+
+
+</style>
+
+</body>
+</html>
